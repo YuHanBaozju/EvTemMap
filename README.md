@@ -1,5 +1,6 @@
 # EvTemMap
 Python implementation for "Temporal-Mapping Photography for Event Cameras" -ECCV2024
+
 @inproceedings{bao2024temporal,
   title={Temporal-mapping photography for event cameras},
   author={Bao, Yuhan and Sun, Lei and Ma, Yuqin and Wang, Kaiwei},
