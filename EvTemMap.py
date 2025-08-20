@@ -6,11 +6,13 @@ Requirements:
 - opencv-python
 - metavision sdk (please follow the installation guide at https://docs.prophesee.ai/stable/installation/windows.html)
 
-@article{bao2024temporal,
-  title={Temporal-Mapping Photography for Event Cameras},
+@inproceedings{bao2024temporal,
+  title={Temporal-mapping photography for event cameras},
   author={Bao, Yuhan and Sun, Lei and Ma, Yuqin and Wang, Kaiwei},
-  journal={arXiv preprint arXiv:2403.06443},
-  year={2024}
+  booktitle={European Conference on Computer Vision},
+  pages={55--72},
+  year={2024},
+  organization={Springer}
 }
 
 MIT License
@@ -114,3 +116,4 @@ if __name__ == "__main__":
                                                                   " to make the visualization brighter.")
     args = parser.parse_args()
     main(args.input, args.bias)
+
